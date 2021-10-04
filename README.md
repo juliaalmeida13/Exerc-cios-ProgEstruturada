@@ -1,1 +1,1 @@
-# Exerc-cios-ProgEstruturada
+# Exercicios-ProgEstruturada
