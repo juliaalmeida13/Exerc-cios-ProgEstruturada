@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 //algoritmo que le um conjunto de 20 números inteiros e mostra qual foi o maior e o menor valor fornecido
 void maior_menor(){
   int maior = 0, menor = 0, a[3];
@@ -89,8 +90,9 @@ void um_dez(){
 //algoritmo que lê a média anual de 50 alunos e calcula a média geral da turma.
 void media(){
   double a, media = 0;
-  printf("\nDigite todas as médias anuais dos 50 alunos: ");
+  printf("\nDigite todas as médias anuais dos 50 alunos: \n");
   for(int i=0; i<50; i++){
+    printf("Média %d: ", i+1);
     scanf("%lf", &a);
     media += a;
   }
