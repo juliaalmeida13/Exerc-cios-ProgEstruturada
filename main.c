@@ -167,7 +167,7 @@ void soma_multiplicacao(){
 //algoritmo que calcula a area de um retangulo
 void area_retangulo(){
   int base, altura, area;
-  printf("\nDigite o valor da base e da altura do retangulo: ");
+  printf("\n\nDigite o valor da base e da altura do retangulo: ");
   scanf("%d %d", &base, &altura);
 
   printf("\nO valor da area do retangulo é igual a %d", base*altura);
@@ -186,7 +186,7 @@ void media_aprovado_reprovado(){
 }
 int main(void) {
   int escolha = 0;
-  printf("Digite a função desejada:\nMaior e menor entre 3 valores(1)\nIdade(2)\nDiferença(3)\nPositivo, Negativo ou Nulo(4)\nAltura(5)\nUm a dez(6)\nMedia anual(7)\nAdivinhar(8)\nSoma dos ímpares(9)\nMaior e menor entre 20 valores(10)\nSoma e multiplicação(11)\nArea do retângulo(12)\nMedia - aprovados ou reprovados(13)\n\nEscolha: ");
+  printf("\nDigite a função desejada:\n-> Maior e menor entre 3 valores(1)\n-> Idade(2)\n-> Diferença(3)\n-> Positivo, Negativo ou Nulo(4)\n-> Altura(5)\n-> Um a dez(6)\n-> Media anual(7)\n-> Adivinhar(8)\n-> Soma dos ímpares(9)\n-> Maior e menor entre 20 valores(10)\n-> Soma e multiplicação(11)\n-> Area do retângulo(12)\n-> Media - aprovados ou reprovados(13)\n\nEscolha: ");
   scanf("%d", &escolha);
   switch(escolha){
     case 1: maior_menor();
